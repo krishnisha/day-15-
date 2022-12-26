@@ -1,0 +1,108 @@
+body{
+  background-color: rgb(206, 232, 255);
+}
+#form{
+ border-style: dashed;
+ border-color: beige;
+ width: 50%;
+ margin-left:  25%;;
+ margin-right: 0px;
+ padding-right: 90px;
+ padding: 1px;
+ background-color: rgb(200, 191, 247);
+ border-radius: 10%;
+
+}
+
+label,button{
+  display:block;
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#description{
+  text-align: center;
+  font-size: 30px;;
+}
+
+#first-name,#last-name,#email,#pincode,#city,#state{
+  width:280px;
+  height:30px;
+  border-radius: 20%;
+  margin-left: 30px;
+  margin-top: auto;
+  padding-left: 10px;
+  background-color: floralwhite;
+  font-size: 15px;    
+  font-family: Arial, Helvetica, sans-serif;
+}
+#gender{
+  display: inline-block;
+  margin-left: 40px;
+
+}
+button{
+  margin:auto;
+  margin-top: 15px;
+  border-radius: 10% 30%;
+  height:40px;
+  background-color: aquamarine;
+  width:100px;
+  margin-bottom: 20px;
+
+
+}
+button:hover{
+  background-color: rgb(189, 189, 189);
+}
+
+select{
+  margin-left: 50px;
+}
+
+table{
+  margin-top:500px;
+  margin-left: 400px;
+  margin-top: 80px;
+  background-color: aqua;
+
+
+  border-collapse: collapse;
+  color: rgb(0, 0, 0);
+  background-color:rgb(98, 248, 246);
+  border-radius: 5px;
+
+
+
+
+}
+
+tr,td,th{
+  border:2px solid rgba(0, 0, 0, 0.856);
+  padding:5px;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 5px;
+
+}
+option{
+  font-size: 16px;
+}
+span{
+  font-size: 16px;;
+}
+
+caption{
+  font-size: 50px;
+  margin-bottom: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#error{
+  font-size:15px;
+  margin-left: 10px;
+  color:rgb(220, 255, 220);
+
+}
